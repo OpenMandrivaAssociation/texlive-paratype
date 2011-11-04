@@ -1,3 +1,9 @@
+# revision 23607
+# category Package
+# catalog-ctan /fonts/paratype
+# catalog-date 2011-06-11 13:46:07 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-paratype
 Version:	20110611
 Release:	1
@@ -438,6 +444,7 @@ the two packages ptsans and ptserif.
 %doc %{_texmfdistdir}/doc/fonts/paratype/paratype-sample.tex
 %doc %{_texmfdistdir}/doc/fonts/paratype/paratype.pdf
 %doc %{_texmfdistdir}/doc/fonts/paratype/paratype.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -448,3 +455,5 @@ the two packages ptsans and ptserif.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
