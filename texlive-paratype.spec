@@ -17,8 +17,6 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The package offers LaTeX support for the fonts PT Sans and PT
@@ -30,20 +28,12 @@ by ParaType). The fonts provide encodings OT1, T1, IL2, TS1,
 T2* and X2. The package provides a convenient replacement of
 the two packages ptsans and ptserif.
 
-%pre
-    %_texmf_mktexlsr_pre
-
 %post
-    %_texmf_mktexlsr_post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_pre
-    fi
+    %{_sbindir}/texlive.post
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_post
+	%{_sbindir}/texlive.post
     fi
 
 #-----------------------------------------------------------------------
@@ -445,7 +435,6 @@ the two packages ptsans and ptserif.
 %doc %{_texmfdistdir}/doc/fonts/paratype/paratype-sample.tex
 %doc %{_texmfdistdir}/doc/fonts/paratype/paratype.pdf
 %doc %{_texmfdistdir}/doc/fonts/paratype/paratype.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -456,5 +445,3 @@ the two packages ptsans and ptserif.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
