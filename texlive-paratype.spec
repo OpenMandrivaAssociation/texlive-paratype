@@ -1,11 +1,11 @@
-# revision 25488
+# revision 25499
 # category Package
 # catalog-ctan /fonts/paratype
-# catalog-date 2012-02-23 13:49:23 +0100
+# catalog-date 2012-02-24 13:31:20 +0100
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-paratype
-Version:	20120223
+Version:	20120224
 Release:	1
 Summary:	LaTeX support for free fonts by ParaType
 Group:		Publishing
