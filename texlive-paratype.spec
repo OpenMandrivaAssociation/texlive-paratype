@@ -1,12 +1,12 @@
-# revision 25499
+# revision 26866
 # category Package
 # catalog-ctan /fonts/paratype
-# catalog-date 2012-02-24 13:31:20 +0100
+# catalog-date 2012-06-04 14:38:41 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-paratype
-Version:	20120224
-Release:	2
+Version:	20120604
+Release:	1
 Summary:	LaTeX support for free fonts by ParaType
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/paratype
@@ -93,6 +93,22 @@ and ptserif.
 %{_texmfdistdir}/fonts/map/dvips/paratype/paratype-mixed.map
 %{_texmfdistdir}/fonts/map/dvips/paratype/paratype-truetype.map
 %{_texmfdistdir}/fonts/map/dvips/paratype/paratype-type1.map
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-il2--base.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-il2.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-ot1--base.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-t1--base.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-t1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-t2a--base.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-t2a.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-t2b--base.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-t2b.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-t2c--base.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-t2c.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-ts1--base.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-ts1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-x2--base.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Regular-tlf-il2--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Regular-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Regular-tlf-ot1--base.tfm
@@ -390,6 +406,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-UprightItalic-tlf-x2--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-UprightItalic-tlf-x2.tfm
 %{_texmfdistdir}/fonts/truetype/paratype/ptmono/PTM55F.ttf
+%{_texmfdistdir}/fonts/truetype/paratype/ptmono/PTM75F.ttf
 %{_texmfdistdir}/fonts/truetype/paratype/ptsans/PTC55F.ttf
 %{_texmfdistdir}/fonts/truetype/paratype/ptsans/PTC75F.ttf
 %{_texmfdistdir}/fonts/truetype/paratype/ptsans/PTN57F.ttf
@@ -432,6 +449,14 @@ and ptserif.
 %{_texmfdistdir}/fonts/type1/paratype/ptserif/PTZ55F.pfm
 %{_texmfdistdir}/fonts/type1/paratype/ptserif/PTZ56F.pfb
 %{_texmfdistdir}/fonts/type1/paratype/ptserif/PTZ56F.pfm
+%{_texmfdistdir}/fonts/vf/paratype/ptmono/PTMono-Bold-tlf-il2.vf
+%{_texmfdistdir}/fonts/vf/paratype/ptmono/PTMono-Bold-tlf-ot1.vf
+%{_texmfdistdir}/fonts/vf/paratype/ptmono/PTMono-Bold-tlf-t1.vf
+%{_texmfdistdir}/fonts/vf/paratype/ptmono/PTMono-Bold-tlf-t2a.vf
+%{_texmfdistdir}/fonts/vf/paratype/ptmono/PTMono-Bold-tlf-t2b.vf
+%{_texmfdistdir}/fonts/vf/paratype/ptmono/PTMono-Bold-tlf-t2c.vf
+%{_texmfdistdir}/fonts/vf/paratype/ptmono/PTMono-Bold-tlf-ts1.vf
+%{_texmfdistdir}/fonts/vf/paratype/ptmono/PTMono-Bold-tlf-x2.vf
 %{_texmfdistdir}/fonts/vf/paratype/ptmono/PTMono-Regular-tlf-il2.vf
 %{_texmfdistdir}/fonts/vf/paratype/ptmono/PTMono-Regular-tlf-ot1.vf
 %{_texmfdistdir}/fonts/vf/paratype/ptmono/PTMono-Regular-tlf-t1.vf
