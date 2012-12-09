@@ -661,3 +661,33 @@ and ptserif.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120604-1
++ Revision: 812726
+- Update to latest release.
+
+* Fri Mar 09 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 20120224-2
++ Revision: 783481
+- rebuild without scriptlet dependencies
+
+* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120224-1
++ Revision: 783066
+- Update to latest release.
+
+* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120223-1
++ Revision: 780575
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110611-2
++ Revision: 754644
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110611-1
++ Revision: 719192
+- texlive-paratype
+- texlive-paratype
+- texlive-paratype
+- texlive-paratype
+
