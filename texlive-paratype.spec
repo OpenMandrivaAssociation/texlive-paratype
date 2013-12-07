@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-paratype
 Version:	20130521
-Release:	4
+Release:	5
 Summary:	LaTeX support for free fonts by ParaType
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/paratype
