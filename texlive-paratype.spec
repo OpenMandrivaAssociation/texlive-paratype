@@ -1,4 +1,4 @@
-# revision 30615
+# revision 32859
 # category Package
 # catalog-ctan /fonts/paratype
 # catalog-date 2013-05-21 15:19:45 +0200
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-paratype
 Version:	20130521
-Release:	5
+Release:	6
 Summary:	LaTeX support for free fonts by ParaType
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/paratype
@@ -72,6 +72,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/afm/paratype/ptserif/PTZ56F.inf
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptmono_il2.enc
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptmono_ot1.enc
+%{_texmfdistdir}/fonts/enc/dvips/paratype/ptmono_ot2.enc
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptmono_t1.enc
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptmono_t2a.enc
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptmono_t2b.enc
@@ -80,6 +81,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptmono_x2.enc
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptsans_il2.enc
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptsans_ot1.enc
+%{_texmfdistdir}/fonts/enc/dvips/paratype/ptsans_ot2.enc
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptsans_t1.enc
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptsans_t2a.enc
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptsans_t2b.enc
@@ -88,6 +90,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptsans_x2.enc
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptserif_il2.enc
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptserif_ot1.enc
+%{_texmfdistdir}/fonts/enc/dvips/paratype/ptserif_ot2.enc
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptserif_t1.enc
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptserif_t2a.enc
 %{_texmfdistdir}/fonts/enc/dvips/paratype/ptserif_t2b.enc
@@ -100,6 +103,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-ot1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-t2a--base.tfm
@@ -114,6 +118,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Bold-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-BoldSlanted-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-BoldSlanted-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-BoldSlanted-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-BoldSlanted-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-BoldSlanted-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-BoldSlanted-tlf-t2a--base.tfm
@@ -130,6 +135,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Regular-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Regular-tlf-ot1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Regular-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Regular-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Regular-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Regular-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Regular-tlf-t2a--base.tfm
@@ -144,6 +150,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Regular-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Slanted-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Slanted-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Slanted-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Slanted-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Slanted-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Slanted-tlf-t2a--base.tfm
@@ -158,6 +165,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptmono/PTMono-Slanted-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Bold-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Bold-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Bold-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Bold-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Bold-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Bold-tlf-t2a--base.tfm
@@ -172,6 +180,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Bold-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-BoldItalic-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-BoldItalic-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-BoldItalic-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-BoldItalic-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-BoldItalic-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-BoldItalic-tlf-t2a--base.tfm
@@ -186,6 +195,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-BoldItalic-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Caption-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Caption-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Caption-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Caption-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Caption-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Caption-tlf-t2a--base.tfm
@@ -200,6 +210,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Caption-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionBold-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionBold-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionBold-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionBold-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionBold-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionBold-tlf-t2a--base.tfm
@@ -214,6 +225,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionBold-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionBoldSlanted-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionBoldSlanted-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionBoldSlanted-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionBoldSlanted-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionBoldSlanted-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionBoldSlanted-tlf-t2a--base.tfm
@@ -228,6 +240,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionBoldSlanted-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionSlanted-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionSlanted-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionSlanted-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionSlanted-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionSlanted-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionSlanted-tlf-t2a--base.tfm
@@ -242,6 +255,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-CaptionSlanted-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Italic-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Italic-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Italic-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Italic-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Italic-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Italic-tlf-t2a--base.tfm
@@ -256,6 +270,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Italic-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Narrow-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Narrow-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Narrow-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Narrow-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Narrow-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Narrow-tlf-t2a--base.tfm
@@ -270,6 +285,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Narrow-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowBold-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowBold-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowBold-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowBold-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowBold-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowBold-tlf-t2a--base.tfm
@@ -284,6 +300,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowBold-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowBoldSlanted-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowBoldSlanted-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowBoldSlanted-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowBoldSlanted-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowBoldSlanted-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowBoldSlanted-tlf-t2a--base.tfm
@@ -298,6 +315,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowBoldSlanted-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowSlanted-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowSlanted-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowSlanted-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowSlanted-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowSlanted-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowSlanted-tlf-t2a--base.tfm
@@ -312,6 +330,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-NarrowSlanted-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Regular-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Regular-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Regular-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Regular-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Regular-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Regular-tlf-t2a--base.tfm
@@ -326,6 +345,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptsans/PTSans-Regular-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Bold-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Bold-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Bold-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Bold-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Bold-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Bold-tlf-t2a--base.tfm
@@ -340,6 +360,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Bold-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-BoldItalic-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-BoldItalic-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-BoldItalic-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-BoldItalic-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-BoldItalic-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-BoldItalic-tlf-t2a--base.tfm
@@ -354,6 +375,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-BoldItalic-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-BoldSlanted-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-BoldSlanted-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-BoldSlanted-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-BoldSlanted-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-BoldSlanted-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-BoldSlanted-tlf-t2a--base.tfm
@@ -382,6 +404,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-BoldUprightItalic-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Caption-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Caption-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Caption-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Caption-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Caption-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Caption-tlf-t2a--base.tfm
@@ -396,6 +419,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Caption-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-CaptionItalic-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-CaptionItalic-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-CaptionItalic-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-CaptionItalic-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-CaptionItalic-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-CaptionItalic-tlf-t2a--base.tfm
@@ -410,6 +434,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-CaptionItalic-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-CaptionSlanted-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-CaptionSlanted-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-CaptionSlanted-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-CaptionSlanted-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-CaptionSlanted-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-CaptionSlanted-tlf-t2a--base.tfm
@@ -438,6 +463,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-CaptionUprightItalic-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Italic-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Italic-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Italic-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Italic-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Italic-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Italic-tlf-t2a--base.tfm
@@ -452,6 +478,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Italic-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Regular-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Regular-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Regular-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Regular-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Regular-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Regular-tlf-t2a--base.tfm
@@ -466,6 +493,7 @@ and ptserif.
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Regular-tlf-x2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Slanted-tlf-il2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Slanted-tlf-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Slanted-tlf-ot2.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Slanted-tlf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Slanted-tlf-t1.tfm
 %{_texmfdistdir}/fonts/tfm/paratype/ptserif/PTSerif-Slanted-tlf-t2a--base.tfm
@@ -724,6 +752,12 @@ and ptserif.
 %{_texmfdistdir}/tex/latex/paratype/OT1PTSansNarrow-TLF.fd
 %{_texmfdistdir}/tex/latex/paratype/OT1PTSerif-TLF.fd
 %{_texmfdistdir}/tex/latex/paratype/OT1PTSerifCaption-TLF.fd
+%{_texmfdistdir}/tex/latex/paratype/OT2PTMono-TLF.fd
+%{_texmfdistdir}/tex/latex/paratype/OT2PTSans-TLF.fd
+%{_texmfdistdir}/tex/latex/paratype/OT2PTSansCaption-TLF.fd
+%{_texmfdistdir}/tex/latex/paratype/OT2PTSansNarrow-TLF.fd
+%{_texmfdistdir}/tex/latex/paratype/OT2PTSerif-TLF.fd
+%{_texmfdistdir}/tex/latex/paratype/OT2PTSerifCaption-TLF.fd
 %{_texmfdistdir}/tex/latex/paratype/PTMono.sty
 %{_texmfdistdir}/tex/latex/paratype/PTSans.sty
 %{_texmfdistdir}/tex/latex/paratype/PTSansCaption.sty
