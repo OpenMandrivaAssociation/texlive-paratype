@@ -1,18 +1,12 @@
-# revision 32859
-# category Package
-# catalog-ctan /fonts/paratype
-# catalog-date 2013-05-21 15:19:45 +0200
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-paratype
-Version:	20190228
+Version:	32859
 Release:	1
 Summary:	LaTeX support for free fonts by ParaType
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/paratype
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/paratype.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/paratype.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/paratype.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/paratype.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -29,12 +23,12 @@ provides a convenient replacement of the two packages ptsans
 and ptserif.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -815,7 +809,7 @@ and ptserif.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
