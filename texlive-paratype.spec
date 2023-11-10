@@ -1,6 +1,6 @@
 Name:		texlive-paratype
-Version:	32859
-Release:	2
+Version:	68624
+Release:	1
 Summary:	LaTeX support for free fonts by ParaType
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/paratype
