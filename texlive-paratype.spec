@@ -12,7 +12,8 @@ Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/paratype.r%{tl_r
 Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/paratype.doc.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Requires:	texlive-tlpkg
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 The package offers LaTeX support for the fonts PT Sans, PT Serif and PT
@@ -23,3 +24,10 @@ created by ParaType). The fonts provide encodings OT1, T1, IL2, TS1, T2*
 and X2. The package provides a convenient replacement of the two
 packages ptsans and ptserif.
 
+
+%install -a
+mkdir -p %{buildroot}%{_texmf_updmap_d}
+cat > %{buildroot}%{_texmf_updmap_d}/%{tl_name} <<'TL_DROPIN_EOF'
+# from paratype:
+Map paratype-type1.map
+TL_DROPIN_EOF
